@@ -1,7 +1,7 @@
 {
   "name": "jc/rabbitmq-management-api-client-bundle",
   "homepage": "http://github.com/jcart/rabbitmq-management-api-client-bundle",
-  "keywords":["rabbitmq", "rabbitmq-managent", "symfony2"],
+  "keywords":["rabbitmq", "rabbitmq-management", "symfony2"],
   "type":"library",
   "license":"MIT",
   "autoload": {
