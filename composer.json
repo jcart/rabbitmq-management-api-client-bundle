@@ -1,0 +1,23 @@
+{
+  "name": "jc/rabbitmq-management-api-client-bundle",
+  "homepage": "http://github.com/jcart/rabbitmq-management-api-client-bundle",
+  "keywords":["rabbitmq", "rabbitmq-managent", "symfony2"],
+  "type":"library",
+  "license":"MIT",
+  "autoload": {
+    "psr-0" : {
+      "JC\\RabbitmqManagementApiClientBundle" : ""
+    }
+  },
+  "target-dir": "JC/RabbitmqManagementApiClientBundle",
+  "authors":[
+    {
+      "name":"John Cartwright",
+      "homepage":"http://jcartwright.ca"
+    }
+  ],
+  "require": {
+      "php": ">=5.5.0",
+      "richardfullmer/rabbitmq-management-api": "dev-master"
+  }  
+}
