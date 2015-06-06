@@ -25,7 +25,7 @@ class JCRabbitmqManagementApiClientExtension extends Extension
         foreach ($config['clients'] as $id => $client) {
             $clientServiceId = sprintf('jc_rabbimq_management_api_client.%s', $id);
 
-            $baseUrl = sprintf('%s://%s:%s', $client['secure'] ? 'https' : 'http', $client
+            $baseUrl = sprintf('%s://%s:%s', $client['secure'] ? 'https' : 'http', $client['host'], $client['port']);
 
             $container->register($clientServiceId, 'RabbitMq\ManagementApi\Client')
                 ->addArgument(null)
